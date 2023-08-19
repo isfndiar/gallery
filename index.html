@@ -10,7 +10,7 @@
 
     <title>Tugas 1: membuat Gallery</title>
     <!-- link css -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,6 +25,9 @@
         <a href=""><i data-feather="hexagon"></i></a>
       </div>
       <ul class="nav">
+        <a href="#" class="close-icon" id="close-bar"
+          ><i data-feather="x"></i
+        ></a>
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#social">Social</a></li>
@@ -38,9 +41,55 @@
     </header>
 
     <div class="container">
-      <div class="images-content">
-        <img src="" alt="ini kucing" />
+      <div class="images-content img-button">
+        <img src="image/cat2.jpg" alt="ini kucing" />
         <p class="description">Cat take a ball</p>
+      </div>
+      <div class="images-content img-button">
+        <img src="image/cat2.jpg" alt="ini kucing" />
+        <p class="description">Cat take a ball</p>
+      </div>
+      <div class="images-content img-button">
+        <img src="image/cat2.jpg" alt="ini kucing" />
+        <p class="description">Cat take a ball</p>
+      </div>
+      <div class="images-content img-button">
+        <img src="image/cat2.jpg" alt="ini kucing" />
+        <p class="description">Cat take a ball</p>
+      </div>
+      <div class="images-content img-button">
+        <img src="image/cat2.jpg" alt="ini kucing" />
+        <p class="description">Cat take a ball</p>
+      </div>
+      <div class="images-content img-button">
+        <img src="image/cat2.jpg" alt="ini kucing" />
+        <p class="description">Cat take a ball</p>
+      </div>
+      <div class="images-content img-button">
+        <img src="image/cat2.jpg" alt="ini kucing" />
+        <p class="description">Cat take a ball</p>
+      </div>
+      <div class="images-content">
+        <img src="image/cat2.jpg" alt="ini kucing" />
+        <p class="description">Cat take a ball</p>
+      </div>
+    </div>
+
+    <!-- modal content -->
+    <div class="modal" id="modal-modalan">
+      <div class="modal-container">
+        <a href="" class="close-icon" id="modal-close"
+          ><i data-feather="x"></i
+        ></a>
+        <div class="images-content">
+          <img src="image/cat2.jpg" alt="ini kucing" id="modal-image" />
+          <p class="description">
+            Cat take a ball Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Saepe, nemo. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Veniam ab vitae quisquam officiis dolor sint autem
+            recusandae laudantium sed a!
+          </p>
+        </div>
       </div>
     </div>
 
